@@ -181,9 +181,12 @@ public class MyParcelable implements Parcelable {
   android:label="@string/app_name" 
   android:name=".MyActivity" > 
   <intent-filter> 
-    <action android:name="android.intent.action.SEND" /> 
-    <data android:mimeType="image/*" /> 
-    <category android:name="android.intent.category.DEFAULT" /> 
+    <action android:name=
+      "android.intent.action.SEND" /> 
+    <data android:mimeType=
+      "image/*" /> 
+    <category android:name=
+      "android.intent.category.DEFAULT" /> 
   </intent-filter> 
 </activity>
 ```
@@ -191,8 +194,9 @@ public class MyParcelable implements Parcelable {
 ## Intent Objects - 5 - Intent Filters Example Java
 
 ```java
-IntentFiler intentFilter = new IntentFilter("MY_ACTION");
+IntentFiler intentFilter = 
+  new IntentFilter("MY_ACTION");
 intentFilter.addCategory("MY_CAT");
 ```
 
-## Any Questions?
+# Any Questions?
