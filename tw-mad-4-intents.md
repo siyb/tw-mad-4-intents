@@ -13,6 +13,7 @@
 
 * Introduction
 * Parcelables
+* Intent Objects
 
 # Introduction
 
@@ -117,7 +118,6 @@ public class MyParcelable implements Parcelable {
       }
   }; 
 ```
-
 
 # Intent Objects
 
